@@ -1,0 +1,60 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*text-align: center;*/
+  margin: 45px 0 46px;
+  color: #2c3e50;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #333333;
+}
+input[type=button],input[type=text],input[type=password]{-webkit-appearance:none;outline:none; border: none;}
+.clearfix{
+  zoom:0
+}
+.clearfix:after{
+  content: ' ';
+  display: block;
+  width: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.text_center{
+  text-align: center;
+}
+.footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-shadow:3px -3px 50px #f6f6f6 ;
+}
+.footer li{
+  flex: 1;
+  padding: 5px 0;
+  text-align: center;
+  background: #FFFFFF;
+}
+.footer li .active{
+  color: #10AEFF;
+}
+.footer li .iconfont{
+  font-size: 23px;
+}
+.footer li span{
+  padding: 2px 0 0;
+  display: block;
+  font-size: 14px;
+}
